@@ -7,9 +7,6 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV PKGURL=https://dl.ubnt.com/unifi/5.7.23/unifi_sysvinit_all.deb
 
 ENV BASEDIR=/usr/lib/unifi \
-    DATADIR=/unifi/data \
-    LOGDIR=/unifi/log \
-    CERTDIR=/unifi/cert \
     RUNDIR=/var/run/unifi \
     ODATADIR=/var/lib/unifi \
     OLOGDIR=/var/log/unifi \
